@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Status</label>
+    <type>Picklist</type>
+    <required>true</required>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>Pending</fullName><default>true</default><label>Pending</label></value>
+            <value><fullName>Eligible</fullName><default>false</default><label>Eligible</label></value>
+            <value><fullName>Event_Published</fullName><default>false</default><label>Event Published</label></value>
+            <value><fullName>Downstream_Accepted</fullName><default>false</default><label>Downstream Accepted</label></value>
+            <value><fullName>Downstream_Failed</fullName><default>false</default><label>Downstream Failed</label></value>
+            <value><fullName>Launched</fullName><default>false</default><label>Launched</label></value>
+            <value><fullName>Blocked_Mismatch</fullName><default>false</default><label>Blocked - Mismatch</label></value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Currency_Code__c</fullName>
+    <label>Currency Code</label>
+    <type>Text</type>
+    <length>3</length>
+    <description>Stand-in for standard CurrencyIsoCode. Swap to the standard field if multi-currency is enabled in your org.</description>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approved_Terms_Matched__c</fullName>
+    <label>Approved Terms Matched</label>
+    <type>Checkbox</type>
+    <defaultValue>false</defaultValue>
+    <description>Set by the Ironclad sync when the executed contract's approved-terms hash matches the CPQ quote's approved terms.</description>
+</CustomField>

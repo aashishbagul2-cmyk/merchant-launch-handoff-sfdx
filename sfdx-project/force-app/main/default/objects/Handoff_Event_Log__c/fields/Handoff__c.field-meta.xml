@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Handoff__c</fullName>
+    <label>Handoff</label>
+    <type>Lookup</type>
+    <referenceTo>Merchant_Launch_Handoff__c</referenceTo>
+    <relationshipLabel>Event Logs</relationshipLabel>
+    <relationshipName>Event_Logs</relationshipName>
+    <required>true</required>
+    <deleteConstraint>Cascade</deleteConstraint>
+</CustomField>

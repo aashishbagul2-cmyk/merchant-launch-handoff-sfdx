@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Launch_Status__c</fullName>
+    <label>Launch Status</label>
+    <type>Picklist</type>
+    <description>Kept in sync by LaunchEligibilityEvaluator whenever the related Merchant_Launch_Handoff__c changes. Not a formula field: a formula can't read a child record's field, Handoff is the child here, Opportunity is the parent, so this has to be written by the same automation that owns the handoff record.</description>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>Pending</fullName><default>true</default><label>Pending</label></value>
+            <value><fullName>Eligible</fullName><default>false</default><label>Eligible</label></value>
+            <value><fullName>Sent_to_Onboarding</fullName><default>false</default><label>Sent to Onboarding</label></value>
+            <value><fullName>Launched</fullName><default>false</default><label>Launched</label></value>
+            <value><fullName>Blocked</fullName><default>false</default><label>Blocked</label></value>
+            <value><fullName>Failed</fullName><default>false</default><label>Failed</label></value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
